@@ -32,6 +32,7 @@ def run(file_name,protein_only = True):
       resolution = get_resolution(pdb_inp=pdb_inp)
       if 0< resolution <= 1.2:
         r = core(pdb_inp=pdb_inp)
+        r.show()
         
 
         
