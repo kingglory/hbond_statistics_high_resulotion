@@ -1,0 +1,1 @@
+load /home/wangwensong/PycharmProjects/hbond_statistics_high_resulotion/hbonds_pymol.pdb
