@@ -17,7 +17,12 @@ def get_resolution(pdb_inp):
     if (resolutions is not None):
       resolution = resolutions[0]
     return resolution
-
+def core(pdb_inp,pair_proxies = None):
+  model = mmtbx.model.manager(
+    model_input   = pdb_inp,
+    process_input = True,
+    log           = null_out())
+  return hbond.find(model=model, pair_proxies=pair_proxies)
 
 
 
@@ -26,7 +31,8 @@ def run(file_name,protein_only = True):
       pdb_inp = iotbx.pdb.input(file_name=file_name)
       resolution = get_resolution(pdb_inp=pdb_inp)
       if 0< resolution <= 1.2:
-        easy_run("phenix.hbond pdb_inp")
+        r = core(pdb_inp=pdb_inp)
+        
 
         
   
