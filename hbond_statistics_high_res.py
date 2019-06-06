@@ -26,8 +26,10 @@ def core(pdb_inp,pair_proxies = None):
     model_input   = pdb_inp,
     process_input = True,
     log           = null_out())
-  m_sel = model.selection("protein")
+  #print model.model_as_pdb(),"wwwwwwwwwwww"
+  m_sel = model.selection("not protein")
   new_model = model.select(~m_sel)
+  #print new_model.model_as_pdb(),"eeeeeeeeeeee"
 
   return hbond.find(model=new_model, pair_proxies=pair_proxies)
 
@@ -60,9 +62,12 @@ if __name__ == '__main__':
     i = 0
     dict = {}
     for f in files:
-     pdb_code = os.path.basename(f)[3:7]
-     r = run(f)
-     dict[pdb_code] = r
+      pdb_code = os.path.basename(f)[3:7]
+      print pdb_code*8
+      r = run(f)
+      print pdb_code * 8
+      dict[pdb_code] = r
+
     easy_pickle.dump("high_res_hbond.pickle",dict)
 
     

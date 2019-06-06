@@ -74,7 +74,7 @@ class find(object):
         d_DA_cutoff  = [2.5, 3.5], # not used
         a_DHA_cutoff = 120,        # should be greater than this
         a_YAH_cutoff = [90, 180],  # should be within this interval
-        protein_only = False,
+        protein_only = True,
         pair_proxies = None):
     self.result = []
     self.model = model
@@ -83,6 +83,7 @@ class find(object):
     if(self.pair_proxies is not None):
       self.external_proxies = True
     atoms = self.model.get_hierarchy().atoms()
+    #print (model.model_as_pdb())
     geometry = self.model.get_restraints_manager()
     bond_proxies_simple, asu = geometry.geometry.get_all_bond_proxies(
       sites_cart = self.model.get_sites_cart())
@@ -157,7 +158,9 @@ class find(object):
         atom_i = make_atom_id(atom = H, index = i)
         atom_j = make_atom_id(atom = A, index = j)
         if(rt_mx_ji is not None and str(rt_mx_ji) != "x,y,z"):
+
           A = apply_symop_to_copy(A, rt_mx_ji, fm, om)
+
           if(len(Y)>0):
             Y = [apply_symop_to_copy(y, rt_mx_ji, fm, om) for y in Y]
       if(ej in Hs):
@@ -206,6 +209,7 @@ class find(object):
         a_YAH   = a_YAH,
         d_AD    = A.distance(D)
       ))
+
       if(not self.external_proxies):
         proxy_custom = group_args(i_seq = i, j_seq = j, rt_mx_ji = rt_mx_ji,
           atom_i = atom_i, atom_j = atom_j)
