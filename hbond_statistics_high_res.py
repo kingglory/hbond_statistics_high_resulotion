@@ -1,52 +1,33 @@
-from __future__ import division
+from __future__ import division,absolute_import,print_function
 import iotbx.pdb
 import os
-import hbond
+import mmtbx.model
+from libtbx import easy_pickle
+import mmtbx.nci.hbond as hbond
 import mmtbx.model
 from libtbx.utils import null_out
-from libtbx import group_args
-from libtbx import easy_pickle
-from libtbx import easy_mp
-from libtbx import easy_run
-import collections
-import math
-from iotbx.pdb import remark_2_interpretation
-from libtbx import easy_pickle
+from mmtbx.utils import run_reduce_with_timeout
 
-
-def get_resolution(pdb_inp):
-    resolution = None
-    resolutions = iotbx.pdb.remark_2_interpretation.extract_resolution(
-      pdb_inp.extract_remark_iii_records(2))
-    if (resolutions is not None):
-      resolution = resolutions[0]
-    return resolution
-def core(pdb_inp,pair_proxies = None):
+def run():
+  rr = run_reduce_with_timeout(
+    stdin_lines = None,
+    file_name   = "pdb35c8.ent.gz",
+    parameters  = "-oh -his -flip -keep -allalt -pen9999",
+    override_auto_timeout_with=None)
+  pdb_inp = iotbx.pdb.input(source_info = None, lines = rr.stdout_lines)
+  hierarchy = pdb_inp.construct_hierarchy()
+  asc = hierarchy.atom_selection_cache()
+  sel = asc.selection("protein")
+  hierarchy = hierarchy.select(sel)
   model = mmtbx.model.manager(
-    model_input   = pdb_inp,
-    process_input = True,
-    log           = null_out())
-  #print model.model_as_pdb(),"wwwwwwwwwwww"
-  m_sel = model.selection("not protein")
-  new_model = model.select(~m_sel)
-  #print new_model.model_as_pdb(),"eeeeeeeeeeee"
-
-  return hbond.find(model=new_model, pair_proxies=pair_proxies)
+    model_input      = None,
+    pdb_hierarchy    = hierarchy,
+    crystal_symmetry = pdb_inp.crystal_symmetry(),
+    process_input    = True,
+    log              = null_out())
+  return hbond.find(model = model)
 
 
-
-def run(file_name,protein_only = True):
-    result = None
-    if (protein_only):
-      pdb_inp = iotbx.pdb.input(file_name=file_name)
-      resolution = get_resolution(pdb_inp=pdb_inp)
-      if 0< resolution <= 1.2:
-        r = core(pdb_inp=pdb_inp)
-        result = r.show()
-    return result
-        
-
-        
   
 
 
@@ -55,6 +36,13 @@ def run(file_name,protein_only = True):
 
 
 if __name__ == '__main__':
+
+    r = run()
+    dict = {}
+    dict[1] = r.result
+    easy_pickle.dump("1nym.pickle",dict)
+
+    """
     path ='/home/wangwensong/PDB/pdb/'
     of = open("".join([path,"INDEX"]),"r")
     files = ["".join([path,f]).strip() for f in of.readlines()]
@@ -63,12 +51,11 @@ if __name__ == '__main__':
     dict = {}
     for f in files:
       pdb_code = os.path.basename(f)[3:7]
-      print pdb_code*8
-      r = run(f)
-      print pdb_code * 8
-      dict[pdb_code] = r
-
+      file_name = f
+      print (file_name)
+      r = run(file_name)
+      dict[pdb_code] = r.result
     easy_pickle.dump("high_res_hbond.pickle",dict)
-
+    """
     
 
