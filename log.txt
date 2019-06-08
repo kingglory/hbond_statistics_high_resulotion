@@ -1,0 +1,385 @@
+/home/wangwensong/PDB/pdb/ny/pdb3nyp.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/ny/pdb1nyd.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/kd/pdb2kda.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/kd/pdb2kd9.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/kd/pdb2kd8.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/kd/pdb2kd4.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/g1/pdb2g1g.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/g1/pdb2g1w.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/g1/pdb1g1n.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/g1/pdb1g14.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/tn/pdb1tne.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/d6/pdb1d69.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/d6/pdb1d68.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/d6/pdb1d6d.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/m2/pdb2m27.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/m2/pdb2m23.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/m2/pdb2m21.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/m2/pdb2m22.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/m2/pdb2m24.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/m2/pdb5m2l.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/m2/pdb2m2c.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/ii/pdb1ii1.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/ii/pdb4iii.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/04/pdb104d.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/04/pdb204d.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/mb/pdb2mb2.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/mb/pdb5mbr.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/mb/pdb2mbj.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/mb/pdb2mb4.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/mb/pdb2mb3.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/og/pdb5oga.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/ah/pdb2aht.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/ah/pdb4ah0.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/he/pdb2hem.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
+/home/wangwensong/PDB/pdb/gw/pdb5gwq.ent.gz
+Traceback (most recent call last):
+  File "hbond_statistics_high_res.py", line 53, in <module>
+    r = run(f)
+  File "hbond_statistics_high_res.py", line 34, in run
+    log              = null_out())
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 271, in __init__
+    self._process_input_model()
+  File "/home/wangwensong/phenix-dev-3500/modules/cctbx_project/mmtbx/model/model.py", line 1062, in _process_input_model
+    raise Sorry("Empty xray_structure.")
+Sorry: Empty xray_structure.
