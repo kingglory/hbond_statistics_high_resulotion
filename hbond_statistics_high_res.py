@@ -32,6 +32,7 @@ def run(file_name):
   return hbond.find(model = model)
 
 if __name__ == '__main__':
+  i = 0
   path = '/home/wangwensong/PDB/pdb/'
   of = open("".join([path,"INDEX"]),"r")
   files = ["".join([path,f]).strip() for f in of.readlines()]
@@ -40,6 +41,9 @@ if __name__ == '__main__':
   for f in files:
     pdb_code = os.path.basename(f)[3:7]
     file_name = f
+    print file_name
     r = run(f)
     dict[pdb_code] = (r.result)
+    i = i+1
+    print i
   easy_pickle.dump("high_res_hbond.pickle",dict)
