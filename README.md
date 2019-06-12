@@ -11,7 +11,7 @@
 4: "statistics.py" is going to load the "high_res_hbond.pickle" to dictionary ,the drawn statistics pictures
 But there are problem when load the pickle file!!!!!!!!!!!!!!!
 
-the error information is as follow:
+the error informations is as follow:
 
 
 Traceback (most recent call last):
